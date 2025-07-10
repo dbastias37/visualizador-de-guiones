@@ -3,7 +3,7 @@ const displaySection = document.getElementById('display-section');
 const form           = document.getElementById('upload-form');
 const unlockBtn      = document.getElementById('unlock-btn');
 
-const pwd = 'TuPassword123'; // 💡 cámbiala en producción
+const pwd = 'verite2025'; // 💡 cámbiala en producción
 
 // Guardar en localStorage y mostrar
 form.addEventListener('submit', e => {
