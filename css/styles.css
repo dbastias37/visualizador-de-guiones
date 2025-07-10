@@ -1,0 +1,79 @@
+/* Importar familia Code Pro */
+@font-face {
+  font-family: 'CodePro Light';
+  src: url('../fonts/CodePro-Light.woff2') format('woff2');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'CodePro';
+  src: url('../fonts/CodePro-Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'CodePro Bold';
+  src: url('../fonts/CodePro-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+:root {
+  --color-bg: #fff;
+  --color-text: #222;
+  --color-accent: #333;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'CodePro', sans-serif;
+  line-height: 1.5;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: 'CodePro Bold', sans-serif;
+  margin-bottom: 1rem;
+  color: var(--color-accent);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-family: 'CodePro Bold', sans-serif;
+  cursor: pointer;
+  background: var(--color-accent);
+  color: #fff;
+  border: none;
+}
+
+.hidden { display: none; }
+
+#display-section header h2 {
+  font-size: 1.75rem;
+}
+
+#display-section article {
+  margin-top: 1.5rem;
+  white-space: pre-wrap;
+  font-size: 1rem;
+}
